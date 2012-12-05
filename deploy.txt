@@ -1,0 +1,39 @@
+jackson@jackson:~/297/1$ vmc push
+Name> cmpe297-jessejac-part1
+
+Instances> 1
+
+1: sinatra
+2: other
+Framework> sinatra
+
+1: ruby18
+2: ruby19
+3: other
+Runtime> 2
+
+1: 64M
+2: 128M
+3: 256M
+4: 512M
+5: 1G
+Memory Limit> 128M
+
+Creating cmpe297-jessejac-part1... OK
+
+1: cmpe297-jessejac-part1.cloudfoundry.com
+2: none
+URL> cmpe297-jessejac-part1.cloudfoundry.com
+
+Updating cmpe297-jessejac-part1... OK
+
+Create services for application?> n
+
+Bind other services to application?> n
+
+Save configuration?> n
+
+Uploading cmpe297-jessejac-part1... OK
+Starting cmpe297-jessejac-part1... OK
+Checking cmpe297-jessejac-part1... OK
+

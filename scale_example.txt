@@ -1,0 +1,24 @@
+jackson@jackson:~/297/1$ vmc scale cmpe297-jessejac-part1 --instances 4
+Scaling cmpe297-jessejac-part1... OK
+jackson@jackson:~/297/1$ vmc instances cmpe297-jessejac-part1
+Getting instances for cmpe297-jessejac-part1... OK
+
+instance #0: running 
+  started: 2012-12-05 02:34:42 PM
+
+instance #1: running 
+  started: 2012-12-05 02:39:25 PM
+
+instance #2: running 
+  started: 2012-12-05 02:39:25 PM
+
+instance #3: running 
+  started: 2012-12-05 02:39:25 PM
+jackson@jackson:~/297/1$ vmc scale cmpe297-jessejac-part1 --instances 1
+Scaling cmpe297-jessejac-part1... OK
+jackson@jackson:~/297/1$ vmc instances cmpe297-jessejac-part1
+Getting instances for cmpe297-jessejac-part1... OK
+
+instance #0: running 
+  started: 2012-12-05 02:34:42 PM
+
